@@ -1,0 +1,9 @@
+Attempts: 1 - Request URL: allstarmagazinesubscriptions.com/wp-admin/uploader.php
+Attempts: 2 - Request URL: allstarmagazinesubscriptions.com/wp-includes/rest-api/endpoints/agent.php
+Attempts: 3 - Request URL: allstarmagazinesubscriptions.com/wp-includes/SimplePie/agent.php
+Attempts: 4 - Request URL: allstarmagazinesubscriptions.com/wp-includes/Requests/Exception/agent.php
+Attempts: 5 - Request URL: allstarmagazinesubscriptions.com/wp-includes/Requests/Exception/HTTP/agent.php
+Attempts: 6 - Request URL: allstarmagazinesubscriptions.com/wp-admin/agent.php
+Attempts: 7 - Request URL: allstarmagazinesubscriptions.com/wp-includes/Text/Diff/agent.php
+Attempts: 8 - Request URL: allstarmagazinesubscriptions.com/wp-includes/js/tinymce/plugins/media/agent.php
+Attempts: 9 - Request URL: allstarmagazinesubscriptions.com/wp-includes/rest-api/fields/agent.php

@@ -1,0 +1,3 @@
+[18-Jul-2017 12:55:02 America/New_York] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home/mykaarma/public_html/wp-content/plugins/cardoza-wordpress-poll/cardozawppoll.php on line 11
+[18-Jul-2017 12:55:07 America/New_York] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home/mykaarma/public_html/wp-content/plugins/cardoza-wordpress-poll/cardozawppoll.php on line 11
+[18-Jul-2017 12:55:12 America/New_York] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home/mykaarma/public_html/wp-content/plugins/cardoza-wordpress-poll/cardozawppoll.php on line 11

@@ -1,0 +1,245 @@
+
+#CarSliderVal,
+#CostSliderVal {
+    color: #007dc3;
+}
+
+body {
+    background-color:#f0f0f0;
+}
+.panel {
+    background-color: transparent;
+    box-shadow: 0 1px 2px rgba(0,0,0,0);
+}
+
+.value {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 80pt;
+    height: 60pt;
+    margin: 0 auto;
+    margin-top: 10pt;
+
+    /*background: #fff;*/
+    /*min-height: 200pt;*/
+}
+
+h1.costDollar {
+    margin: -36pt 0 0 -120pt;
+}
+
+@media (min-width:1200px) {
+    .value {
+        margin-left: 40pt;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -36pt 0 0 275pt;
+    }
+}
+@media (max-width:1199px) {
+    .value {
+        margin-left: 20pt;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -36pt 0 0 205pt;
+    }
+    h1.costDollar {
+        margin: -36pt 0 0 -120pt;
+    }
+}
+@media (max-width:991px) {
+    .value {
+        margin-left: 0;
+    }
+    canvas#canvas {
+        margin-top: 30pt;
+        display: inline-block !important;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -36pt 0 0 354pt;
+    }
+    h1.costDollar {
+        margin: -36pt 0 0 -80pt;
+    }
+}
+@media (max-width:767px) {
+    .value {
+        width: 100%;
+        height: 40pt;
+        margin: 10pt auto;
+        /*margin-top: 20pt;*/
+    }
+    .value h1 {
+        margin: 8pt 0 0 0;
+    }
+    canvas#canvas {
+        margin-top: 30pt;
+        display: inline-block !important;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -23pt 0 0 147pt;
+    }
+    div.totals {
+        margin: 0 0 0 -20pt;
+    }
+    h1 {
+        font-size: 20pt;
+    }
+    h4 {
+        font-size: 10pt;
+    }
+    #numLoanerCars,
+    #loanerCost {
+        text-align: center;
+    }
+    h1.costDollar {
+        margin: -22pt 0 0 -60pt;
+    }
+}
+/* iPhone 6+ */
+@media (max-width:414px) {
+    .value {
+        margin-left: 0;
+    }
+    canvas#canvas {
+        margin-top: 30pt;
+        display: inline-block !important;
+    }
+    div.totals {
+        margin: 0 0 0 -20pt;
+    }
+    #currentCost, #myKaarmaSavings {
+        margin: 20pt 0 0 0;
+    }
+    #myKaarmaCost {
+        margin: 25pt 0 0 0;
+    }
+    h1#myKaarmaCostDollar {
+        margin: -28pt 0 0 140pt;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -23pt 0 0 140pt;
+    }
+}
+/* iPhone 6 */
+@media (max-width:375px) {
+    .value {
+        margin-left: 0;
+    }
+    canvas#canvas {
+        margin-top: 30pt;
+        display: inline-block !important;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -23pt 0 0 115pt;
+    }
+    h1#myKaarmaCostDollar,
+    h1#myKaarmaSavingsDollar {
+        margin: -28pt 0 0 115pt;
+    }
+    div.totals {
+        margin: 0 0 0 -20pt;
+    }
+    #myKaarmaCost, #myKaarmaSavings {
+        margin: 25pt 0 0 0;
+    }
+    #currentCost {
+        margin: 20pt 0 0 0;
+    }
+}
+/* iPhone 5 */
+@media (max-width:320px) {
+    .value {
+        margin-left: 0;
+    }
+    canvas#canvas {
+        margin-top: 30pt;
+        display: inline-block !important;
+    }
+    h1.dollar {
+        position: absolute;
+        margin: -28pt 0 0 85pt !important;
+    }
+    div.totals {
+        margin: 0 0 0 -20pt;
+    }
+    #myKaarmaCost, #myKaarmaSavings, #currentCost {
+        margin: 25pt 0 0 0;
+    }
+}
+
+@media (min-width:768px) {
+    /*div.totals {
+        float: right;
+    }*/
+}
+
+
+div.totals {
+    margin-top: 5pt;
+}
+
+h1#currentCost {
+    color: #727272;
+}
+h1#myKaarmaCost {
+    color: #ef6d22;
+}
+h1#myKaarmaSavings {
+    color: #cddc39;
+}
+
+#currentCostTag,
+#myKaarmaCostTag,
+#myKaarmaSavingsTag {
+    margin-top: 25pt;
+    /*height: 50pt;*/
+}
+
+/* -------------------------- */
+/* chart.js styles            */
+/* -------------------------- */
+
+#chart {
+    /*transform: rotate(-90deg);*/
+    /*padding: 20pt;*/
+}
+canvas#canvas {
+    margin-top: 25pt;
+}
+
+/* -------------------------- */
+/* bootstrap-slider overrides */
+/* -------------------------- */
+
+.slider.slider-horizontal {
+    width: 100%;
+    height: 20px;
+}
+
+
+.slider-handle {
+    background-image: linear-gradient(to left,#007dc3 0,#007dc3 100%);
+    width: 30pt;
+    height: 30pt;
+    z-index: 1;
+}
+
+div.tooltip.tooltip-main.top {
+    display: none;
+}
+
+.slider.slider-horizontal .slider-tick, .slider.slider-horizontal .slider-handle {
+    /*margin-left: -10px;*/
+    margin-top: -14px;
+}
+#CarSlider .slider-selection,
+#CostSlider .slider-selection {
+	background: #00245d;
+}

@@ -1,0 +1,23 @@
+Wednesday, 12-Jul-2017 20:59:08 - restore started
+Wednesday, 12-Jul-2017 20:59:08 - wp version     : 4.8
+Wednesday, 12-Jul-2017 20:59:08 - php version    : 5.3.29
+Wednesday, 12-Jul-2017 20:59:08 - mysql version  : 5.5.55
+Wednesday, 12-Jul-2017 20:59:08 - memory limit   : 1024M
+Wednesday, 12-Jul-2017 20:59:08 - execution time : 600
+Wednesday, 12-Jul-2017 20:59:08 - mysql timeout  : 600
+Wednesday, 12-Jul-2017 20:59:08 - socket timeout : 600
+Wednesday, 12-Jul-2017 20:59:08 - file download started
+Wednesday, 12-Jul-2017 20:59:16 - download finished, filesize - 317.29 MB
+Wednesday, 12-Jul-2017 20:59:16 - extracting database using pclzip
+Wednesday, 12-Jul-2017 20:59:16 - database import started
+Wednesday, 12-Jul-2017 20:59:32 - updating mysql query with current site's url - new query : "INSERT INTO mk_options VALUES("1", "siteurl", "http://64.91.233.1/~mykaarma", "yes")"
+Wednesday, 12-Jul-2017 21:02:59 - mysql query failed. error : 1065 Query was empty - query : ""
+Wednesday, 12-Jul-2017 21:02:59 - database import finished
+Wednesday, 12-Jul-2017 21:02:59 - search and replace started
+Wednesday, 12-Jul-2017 21:02:59 - there are 21 tables to scan
+Wednesday, 12-Jul-2017 21:03:11 - search and replace finished
+Wednesday, 12-Jul-2017 21:03:11 - extracting archive using pclzip
+Wednesday, 12-Jul-2017 21:03:19 - copying files..
+Wednesday, 12-Jul-2017 21:03:27 - deleting temp directory..
+Wednesday, 12-Jul-2017 21:03:27 - deleting downloaded zip file..
+Wednesday, 12-Jul-2017 21:03:28 - restore finished

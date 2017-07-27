@@ -1,0 +1,2 @@
+Attempts: 1 - Request URL: mykaarma.com/payment-information-update/?dummy=0&package.token=10b788jg97l7&customer.token=ic6m9361l3s0&transaction.token=&package.line_items[0].item_token=25159dqe2916
+Attempts: 2 - Request URL: mykaarma.com/payment-information-update/?dummy=0&package.token=z4ocf8sxr254&customer.token=4867eu11sj5l&transaction.token=&package.line_items[0].item_token=25159dqe2916

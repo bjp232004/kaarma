@@ -1,0 +1,27 @@
+Monday, 20-Mar-2017 18:37:42 - backup started
+Monday, 20-Mar-2017 18:37:42 - wp version     : 4.7.3
+Monday, 20-Mar-2017 18:37:42 - php version    : 5.3.29
+Monday, 20-Mar-2017 18:37:42 - mysql version  : 5.5.54
+Monday, 20-Mar-2017 18:37:42 - memory limit   : 1024M
+Monday, 20-Mar-2017 18:37:42 - execution time : 600
+Monday, 20-Mar-2017 18:37:42 - mysql timeout  : 600
+Monday, 20-Mar-2017 18:37:42 - socket timeout : 600
+Monday, 20-Mar-2017 18:37:42 - files larger than 25 MB will be excluded from the backup
+Monday, 20-Mar-2017 18:37:42 - generating file list
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170307-234025-982.wpress"  61.11 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170313-165745-114.wpress"  60.64 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170315-204508-737.wpress"  31.31 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170313-165719-646.wpress"  63.43 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170315-162021-296.wpress"  61.15 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170320-173619-137.wpress"  61.37 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170320-173655-855.wpress"  37.48 MB
+Monday, 20-Mar-2017 18:37:42 - file skipped, file is larger than 25 MB - "**SITE-ROOT**/wp-content/ai1wm-backups/64.91.233.1-~mykaarma-20170320-173718-330.wpress"  37.48 MB
+Monday, 20-Mar-2017 18:37:42 - 8 files were excluded from the backup
+Monday, 20-Mar-2017 18:37:42 - number of files to include in the archive is 2226, and their uncompressed size is 67.9 MB
+Monday, 20-Mar-2017 18:37:42 - finished generating file list
+Monday, 20-Mar-2017 18:37:42 - database backup started
+Monday, 20-Mar-2017 18:37:42 - backing up tables with "mk_" prefix
+Monday, 20-Mar-2017 18:37:42 - number of tables to backup - 15
+Monday, 20-Mar-2017 18:37:42 - database backup finished
+Monday, 20-Mar-2017 18:37:42 - archiving files using pclzip
+Monday, 20-Mar-2017 18:37:46 - backup finished

